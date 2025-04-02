@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{ 
+    background-color: #FFFDD0;
+    color: black;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+
+#whenever {
+    position: relative;
+    font-size: 5em;
+    bottom: -215px;
+    left: -240px;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-300px);
+    }
+}
+
+#down {
+    position: relative;
+    bottom: -155px;
+    top: 100px;
+    left: 700px;
+    font-size: 10em;
+    animation: bounce 3s infinite;
+
+}
+
+#call{
+    font-size: 4em;
+    position: relative;
+    bottom: -100px;
+    left: 100px;
+}
+
+#you{
+    font-size: 4em;
+    position: relative;
+    bottom: -150px;
+    left: -10px;
+}
+
+
+@keyframes glowing {
+    0% {
+        text-shadow: 0 0 10px yellow, 0 0 10px yellow;
+    }
+    50% {
+        text-shadow: 0 0 35px yellow, 0 0 20px yellow;
+    }
+    100% {
+        text-shadow: 0 0 10px yellow, 0 0 10px yellow;
+    }
+}
+#friend {
+    padding-left: 10%;
+    position: relative;
+    bottom: -200px;
+    left: -500px;
+    font-size: 6em;
+}
+#friend:hover {
+    font-size: 9em;
+    color: red  ;
+    animation: glowing 1.5s infinite alternate;
+}
+
+
+
+
+.hh {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
+}
+
+
+@keyframes smoooth {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-500px); 
+    }
+}
+#a2 {
+    font-size: 3em;
+    margin-top: 100px;
+    animation: smoooth 3s alternate-reverse;
+}
+
+#help{
+    font-size: 4em;
+    margin-top: -250px;
+    animation: smoooth 2.8s alternate-reverse;
+}
+
+#hand {
+    font-size: 5em;
+    margin-top: -230px;
+    animation: smoooth 2.5s alternate-reverse;
+}
+
+#u {
+    font-size: 6em;
+    margin-top: -220px;
+    animation: smoooth 2s alternate-reverse;
+}
+
+@keyframes shmoove {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(300px); 
+    }
+}
+#lend {
+    font-size: 15em;
+    margin-top: -50px;
+    text-align: center;
+    animation: shmoove 2s alternate-reverse;
+}
+
+
+#body2{
+    background-color: black;
+}
+@keyframes slide {
+    from {
+        transform: translatex(-900px);
+    }
+    to {
+        transform: translatex(900px);
+    }
+}
+.timeslide {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+#in {
+    color: white;
+    font-size: 5em;
+    animation: slide 4.2s infinite reverse;
+}
+#my {
+    color: white;
+    font-size: 6em;
+    animation: slide 4s infinite reverse;
+}
+#time {
+    color: white;
+    font-size: 7em;
+    animation: slide 4.1s infinite;
+}
+#of {
+    color: white;
+    font-size: 5em;
+    animation: slide 3.9s infinite;
+}
+
+#need {
+    color: yellow;
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+    font-size: 8em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#need:hover {
+    color: #660000;
+    transform: scale(1.2);
+    text-shadow: 0 0 100px yellow;
+}
+
+
+@keyframes now {
+    from {
+        transform: translatex(0px) translatey(0px);
+    }
+    to {
+        transform: rotate(900deg)
+        translatex(400px) translatey(-40px);
+    }
+}
+#so{
+    color: white;
+    font-size: 4em;
+    position: relative;
+    left: 380px;
+    bottom: -200px;
+    animation: now 1.4s reverse;
+}
+#im{
+    color: white;
+    font-size: 4em;
+    position: relative;
+    left: 150px;
+    bottom: -250px;
+    animation: now 1.8s reverse;
+}
+#calling{
+    color: white;
+    font-size: 5em;
+    position: relative;
+    left: -9-px;
+    bottom: -295px;
+    animation: now 2.6s reverse;
+}
+#you2{
+    color: white;
+    font-size: 5em;
+    position: relative;
+    left: -125px;
+    bottom: -365px;
+    animation: now 3.4s reverse;
+}
+#now {
+    position: relative;
+    font-size: 9em;
+    left: -200px;
+    bottom: -400px;
+    color: wheat;
+    animation: now 3.8s reverse;
+}
+
+
+.container {
+    height: 150px;
+    width: auto;
+    margin: 1px;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.container2 {
+    z-index: 101;
+    height: 75px;
+    width: auto;
+    margin: 1px;
+    margin-top: 35px;
+    margin-left: 250px;
+    display: inline-block;
+}
+
+.typewriter {
+    font-size: 7em;
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap ;
+    overflow: hidden;
+    animation: typing 2s steps(15), cursor .4s step-end infinite alternate;
+}
+
+.typewriter2 {
+    color: #660000;
+    font-size: 4em;
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap ;
+    overflow: hidden;
+    animation: typing 2s steps(22), cursor .6s step-end infinite alternate;
+}
+
+
+@keyframes  cursor {
+    50% {   border-color: transparent } 
+}
+
+@keyframes typing {
+    from {  width: 0;}
+}
+
+
+
+.through {
+    margin: 10px;
+    margin-left: 600px;
+    padding: 15px;
+    padding-top: 5px;
+    height: 170px;
+    width: 100%;
+    font-size: 10em;
+    border-right: 10px solid red;
+    white-space: nowrap ;
+    animation: typing 2s steps(22), cursor 1.6s step-end infinite alternate;
+    animation-delay:  2.1s ;
+    overflow: hidden;
+}
+
+
+
+
+
+.section {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #ccc;
+}
+
+#section2 {
+    background-color: #FFDDC1;
+}
+
+#section3 {
+    background-color: #660000;
+}
+
+.link-container {
+    margin-top: -455px;
+    margin-left: 90px;  
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.link-container2 {
+    margin-left: 5px;
+    margin-right: -350px;
+    border-left: 50px;
+    padding-left: 500px;
+    display: flex;
+    justify-content: center;
+
+}
