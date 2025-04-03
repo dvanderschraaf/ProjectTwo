@@ -304,9 +304,14 @@ p {
     from {  width: 0;}
 }
 
-
+@keyframes showText {
+    to {
+      opacity: 1;
+    }
+  }
 
 .through {
+    opacity: 0;
     margin: 10px;
     margin-left: 600px;
     padding: 15px;
@@ -316,7 +321,7 @@ p {
     font-size: 10em;
     border-right: 10px solid red;
     white-space: nowrap ;
-    animation: typing 2s steps(22), cursor 1.6s step-end infinite alternate;
+    animation: showText 2s ease forwards, 2s steps(22), cursor 1.6s step-end infinite alternate;
     animation-delay:  2.1s ;
     overflow: hidden;
 }
