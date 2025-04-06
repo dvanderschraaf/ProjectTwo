@@ -166,28 +166,30 @@ p {
     gap: 10px; 
 }
 #in {
-    color: white;
+    color: #660000;
     font-size: 5em;
+    text-shadow: 0 0 100px rgb(255, 0, 0);
     animation: slide 4.2s infinite reverse;
 }
 #my {
-    color: white;
+    color: rgb(112, 24, 24);
     font-size: 6em;
     animation: slide 4s infinite reverse;
 }
 #time {
-    color: white;
+    color: #8f0f0f;
     font-size: 7em;
+    text-shadow: 0 0 100px rgb(255, 0, 0);
     animation: slide 4.1s infinite;
 }
 #of {
-    color: white;
+    color: rgb(179, 36, 36);
     font-size: 5em;
     animation: slide 3.9s infinite;
 }
 
 #need {
-    color: yellow;
+    color: red;
     padding-top: 40px;
     text-align: center;
     position: relative;
@@ -217,7 +219,7 @@ p {
     color: white;
     font-size: 4em;
     position: relative;
-    left: 380px;
+    left: 360px;
     bottom: -200px;
     animation: now 1.4s reverse;
 }
@@ -225,7 +227,7 @@ p {
     color: white;
     font-size: 4em;
     position: relative;
-    left: 150px;
+    left: 140px;
     bottom: -250px;
     animation: now 1.8s reverse;
 }
