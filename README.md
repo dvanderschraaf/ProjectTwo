@@ -6,13 +6,13 @@ By Devon Vanderschraaf
 
 # technical overview
 
-This project is built using:
+This project was built using:
 - HTML5 and CSS3
 - Flexbox for layout
 - CSS animations and keyframes
 - Google Fonts for typography
 - GitHub Pages for deployment
-### Animations were used to create smooth entrance effects, a typewriter-style intro, and hover-based interactions to make the website engaging to the viewer.
+### Animations were used to create smooth transition effects, a typewriter-style intro, and hover-based interactions to make the website engaging to the viewer.
 
 # acknowledgement
 - Google Fonts for the font selection. 
