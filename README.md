@@ -4,8 +4,8 @@
 ## "Calling on a friend" is a project based on the idea of community. It includes the lyrics of "Best Friend" by Brandy, where the lyrics take you on a journey along the pages through animations. 
 
 # technical overview
-## This project is built using:
 
+## This project is built using:
 - HTML5 and CSS3
 - Flexbox for layout
 - CSS animations and keyframes
