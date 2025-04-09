@@ -5,7 +5,7 @@
 
 # technical overview
 
-## This project is built using:
+This project is built using:
 - HTML5 and CSS3
 - Flexbox for layout
 - CSS animations and keyframes
